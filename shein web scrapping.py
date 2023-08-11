@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug  9 23:51:28 2023
+#first step ----> import all libraries that are requierd
+import requests
+from bs4 import BeautifulSoup
+import csv
+from itertools import zip_longest
 
-@author: 96777
-"""
 
+#second step -----> use requests to fetch the url
